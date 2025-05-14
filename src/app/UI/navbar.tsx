@@ -20,6 +20,8 @@ const Navbar: React.FC = () => {
           <Link href="/services">Services</Link>
           <Link href="/contact">Contact</Link>
           <Link href="/careers">Careers</Link>
+          <Link href="/blog">Blog</Link>
+          <Link href="/product">Products</Link>
         </div>
         <button
           onClick={() => setIsOpen(!isOpen)}
